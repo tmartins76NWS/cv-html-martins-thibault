@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(245, 240, 222);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+
+header {
+    border-bottom: 3px solid ;
+    text-align: center;
+}
+
+header {
+    background-color: #9F9671;
+    color: #eae7e2;
+}
+
+section h2 {
+    color: #4e410d;
+}
+
+main {
+    background-color: rgba(159, 150, 113, 0.418);
+}
