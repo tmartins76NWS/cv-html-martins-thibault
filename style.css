@@ -17,7 +17,7 @@ header {
 
 header {
     background-color: #9F9671;
-    color: #eae7e2;
+    color: #faf2e4;
 }
 
 section h2 {
@@ -25,5 +25,8 @@ section h2 {
 }
 
 main {
-    background-color: rgba(159, 150, 113, 0.418);
+    background-color: rgba(160, 151, 151, 0.066);
+    display: flex;
+    gap : 1rem;
 }
+
