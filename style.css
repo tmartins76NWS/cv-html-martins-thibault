@@ -1,32 +1,47 @@
-body{
-    background-color: rgb(245, 240, 222);
-    font-family: 'Nunito Sans', sans-serif;
+body {
+  background-color: rgb(245, 240, 222);
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    
-  }
-
-header {
-    border-bottom: 3px solid ;
-    text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 header {
-    background-color: #9F9671;
-    color: #faf2e4;
+  border-bottom: 3px solid;
+  text-align: center;
+}
+
+header {
+  background-color: #9f9671;
+  color: #faf2e4;
 }
 
 section h2 {
-    color: #4e410d;
+  color: #4e410d;
 }
 
 main {
-    background-color: rgba(160, 151, 151, 0.066);
-    display: flex;
-    gap : 1rem;
+  background-color: rgba(160, 151, 151, 0.066);
+  gap: 1rem;
+  padding: 1rem;
 }
 
+.social-links {
+  display: flex;
+}
+
+.social-link {
+  display: inline-block;
+}
+.social-link.instagram {
+  padding-block: 20px;
+}
+
+@media (min-width: 940px) {
+  main {
+    display: flex;
+  }
+}
